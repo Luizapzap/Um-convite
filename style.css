@@ -23,15 +23,34 @@ button {
     padding: 15px;
   }
 }
-  <head>
-    <meta charset="UTF-8">
 
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-      href="style.css">
-HTML
+body {
+    background-color: pink;
+    text-align: center;
+    font-family: Arial;
 
-<link rel="stylesheet" href="style.css">
-    
-  </head>
+}
+
+h1 {
+    color: #993399;
+    font-size: 40px;
+    font-family: 'Dancing Script' ,
+    cursive;
+}
+
+h2 {
+    color: #b87591
+    font-size: 25px;
+    font-family: 'nunito' , sans-serif;
+}
+
+p {
+    color: #704456
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+*{
+    box-sizing: border-box;
+
+}
