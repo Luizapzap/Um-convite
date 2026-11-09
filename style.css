@@ -1,19 +1,22 @@
 /*configuração geral*/
-body { 
+
+.body { 
+
     font-family: "Dancing Script", cursive;
     font-size: 20px;
     text-align: center;
+    
 }
 
 /*configuração para celulares */
 @media (max-width: 600px) `{
-    body {
+    .body {
         font-size: 16px;
         padding: 15px;
         
 }
 
-img {
+.img {
     widht: 100%;
     max-width: 125px;
 
@@ -23,7 +26,7 @@ img {
     margin-top: 20px;
 }
 
-button {
+.button {
 display: inline-block;
     padding: 10px 20px;
     margin: 5px;
@@ -41,35 +44,35 @@ display: inline-block;
     
 }
 
-body {
+.body {
     background-color: pink;
     text-align: center;
     font-family: "Nunito";
 
 }
 
-h1 {
+.h1 {
     color: #993399;
     font-size: 40px;
     font-family: "Dancing Script", cursive;
     line-height: 1.5;
 }
 
-h2 {
+.h2 {
     color: #b87591
     font-size: 25px;
     font-family: "Nunito", sans-serif;
     line-height: 2.0;
 }
 
-h3 {
+.h3 {
     color: #b87591
     font-size: 25px;
     font-family: "Nunito", sans-serif;
     line-height: 2.0;
 }
 
-p {
+.p {
     color: #704456
     font-size: 17px;
     line-height: 1.7;
@@ -78,4 +81,25 @@ p {
 *{
     box-sizing: border-box;
 
+}
+
+/fontes
+// <weight>: Use a value from 200 to 1000
+// <uniquifier>: Use a unique and descriptive class name
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
