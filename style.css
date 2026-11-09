@@ -1,6 +1,6 @@
 /*configuração geral*/
 body { 
-    font-family: 
+    font-family: "Dancing Script", cursive;
     font-size: 20px;
     text-align: center;
 }
@@ -15,34 +15,51 @@ body {
 
 img {
     widht: 100%;
-    max-width: 300px;
+    max-width: 125px;
 
 }
 
+.botoes {
+    margin-top: 20px;
+}
+
 button {
-    width: 90%;
-    padding: 15px;
+display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+
   }
+
+.botao:hover {
+    background-color: #0056b3;
+}
+    
 }
 
 body {
     background-color: pink;
     text-align: center;
-    font-family: Arial;
+    font-family: "Nunito";
 
 }
 
 h1 {
     color: #993399;
     font-size: 40px;
-    font-family: 'Dancing Script' ,
-    cursive;
+    font-family: "Dancing Script", cursive;
+    line-height: 1.5;
 }
 
 h2 {
     color: #b87591
     font-size: 25px;
-    font-family: 'nunito' , sans-serif;
+    font-family: "Nunito", sans-serif;
+    line-height: 2.0;
 }
 
 p {
