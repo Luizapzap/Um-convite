@@ -62,6 +62,13 @@ h2 {
     line-height: 2.0;
 }
 
+h2 {
+    color: #b87591
+    font-size: 25px;
+    font-family: "Nunito", sans-serif;
+    line-height: 2.0;
+}
+
 p {
     color: #704456
     font-size: 17px;
