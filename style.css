@@ -53,28 +53,28 @@ display: inline-block;
 
 .h1 {
     color: #993399;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Dancing Script", cursive;
     line-height: 1.5;
 }
 
 .h2 {
     color: #b87591
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Nunito", sans-serif;
     line-height: 2.0;
 }
 
 .h3 {
     color: #b87591
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Nunito", sans-serif;
     line-height: 2.0;
 }
 
 .p {
     color: #704456
-    font-size: 17px;
+    font-size: 25px;
     line-height: 1.7;
 }
 
