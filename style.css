@@ -68,13 +68,13 @@ display: inline-block;
 .h3 {
     color: #b87591
     font-size: 30px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     line-height: 2.0;
 }
 
 .p {
     color: #704456
-    font-size: 25px;
+    font-size: 30px;
     line-height: 2.0;
 }
 
